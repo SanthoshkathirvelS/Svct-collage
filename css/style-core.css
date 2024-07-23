@@ -929,6 +929,12 @@ figcaption.wp-caption-text {
   margin-top: 20px;
 }
 
+.course-list li:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
 .bypostauthor {
   max-width: 100%;
 }
