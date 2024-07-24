@@ -428,18 +428,21 @@ textarea {
 }
 
 .gdlr-core-blog-widget .gdlr-core-blog-title {
-	margin-bottom 0px;
+	margin-bottom :0px;
 }
 
 ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list {
 	font-size: 16px;
 	margin-top: -18px;
+	background-color: #192f59;
+	padding: 15px 22px;
 }
 
 ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list li a {
 	padding-left: 0px;
 	border: none;
 	font-weight: 400;
+	color: #fff;
 }
 
 ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list li a:before {
@@ -1254,7 +1257,7 @@ blockquote {
 }
 
 .kingster-body .kingster-top-bar a:hover {
-	color: #ffffff;
+	color: #192f59;
 }
 .menu-item a:hover {
 	color: #2a92c8 !important;
@@ -1343,7 +1346,7 @@ blockquote {
 .kingster-body .kingster-breadcrumbs a:hover span,
 .gdlr-core-breadcrumbs-item span,
 .gdlr-core-breadcrumbs-item a:hover span {
-	color: #3db166;
+	color: #192f59;
 }
 
 .kingster-navigation-background {
@@ -1544,7 +1547,7 @@ body.kingster-boxed .kingster-body-wrapper,
 }
 
 .kingster-page-title-wrap .kingster-page-caption {
-	color: #3db166;
+	color: #fff;
 }
 
 .kingster-page-title-wrap .kingster-page-caption .woocommerce-breadcrumb,
@@ -1704,7 +1707,8 @@ body.kingster-boxed .kingster-body-wrapper,
 }
 
 .kingster-sidebar-area .kingster-widget-title {
-	background-color: #ededed;
+	background-color: #192f59;
+    color: #fff;
 }
 
 .kingster-sidebar-area .kingster-widget-title {
@@ -1732,7 +1736,8 @@ body.kingster-boxed .kingster-body-wrapper,
 }
 
 .kingster-sidebar-area * {
-	border-color: #3db166;
+	border-color: none;
+	border: none !important;
 }
 
 .gdlr-core-recent-post-widget .gdlr-core-blog-info i {
@@ -4620,7 +4625,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_107 {
-	padding: 55px 0px 20px 0px;
+	padding: 45px 0px 40px 0px;
 }
 
 

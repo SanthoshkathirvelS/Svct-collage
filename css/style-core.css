@@ -828,6 +828,13 @@ pre {
   margin-bottom: 20px;
 }
 
+.slick-slide img {
+  display: block;
+  height: 170px;
+  width: 240px;
+  object-fit: contain;
+}
+
 .clear {
   display: block;
   clear: both;
@@ -4048,7 +4055,12 @@ body.search .kingster-not-found-wrap .kingster-not-found-caption {
 /* sidebar */
 
 .kingster-sidebar-area .kingster-widget {
-  margin-bottom: 55px;
+  margin-bottom: 30px;
+}
+
+.placement-p{
+  padding: 15px 60px 0px 60px;
+  color: #373737;
 }
 
 .kingster-sidebar-area .kingster-widget-title {
@@ -6711,4 +6723,19 @@ body .tribe-bar-views-inner {
   color: #fff;
   cursor: pointer;
   font-style: normal;
+}
+
+
+@media(max-width:600px){
+  .slick-slide img {
+    height: 150px !important;
+    width: 160px !important;
+}
+
+.placement-p{
+  padding: 15px 0px 0px 0px !important;
+}
+.placements{
+  padding: 0px !important;
+}
 }
