@@ -2607,12 +2607,20 @@ pre {
 .kingster-body .kingster-button,
 .kingster-body input[type="button"],
 .kingster-body input[type="submit"] {
-	background-color: #3db166;
+	background-color: #fff;
 }
 
 .gdlr-core-body .gdlr-core-load-more:hover,
 .gdlr-core-body .gdlr-core-button:hover {
 	background-color: #2F2F2F;
+}
+.eoa-report{
+	background-color: #192f59 !important;
+	color: #fff !important;
+}
+.eoa-report:hover {
+	background-color: #2F2F2F;
+	color: #fff !important;
 }
 
 .gdlr-core-body .gdlr-core-button-with-border {
@@ -4625,7 +4633,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_107 {
-	padding: 45px 0px 40px 0px;
+	padding: 85px 0px 80px 0px;
 }
 
 

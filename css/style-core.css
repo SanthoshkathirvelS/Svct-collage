@@ -6738,4 +6738,12 @@ body .tribe-bar-views-inner {
 .placements{
   padding: 0px !important;
 }
+.global{
+  min-height: 350px !important;
+}
+.global-img{
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
 }
