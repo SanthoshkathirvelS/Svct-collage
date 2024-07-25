@@ -6729,7 +6729,11 @@ body .tribe-bar-views-inner {
 @media(max-width:600px){
   .slick-slide img {
     height: 150px !important;
-    width: 160px !important;
+    width: 240px !important;
+}
+
+.gallery-section{
+  padding: 0px 10px 50px 10px !important;
 }
 
 .placement-p{
