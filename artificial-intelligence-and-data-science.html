@@ -13,7 +13,6 @@
     <link rel='stylesheet' href='css/style-core.css' type='text/css' media='all' />
     <link rel="stylesheet" href="/dist/output.css">
     <link rel='stylesheet' href='css/kingster-style-custom.css' type='text/css' media='all' />
-    <link rel="shortcut icon" href="/images/fav-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,10 +21,67 @@
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CABeeZee%3Aregular%2Citalic&amp;subset=latin%2Clatin-ext%2Cdevanagari&amp;ver=5.0.3'
         type='text/css' media='all' />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="shortcut icon" href="/images/fav-icon.png" type="image/x-icon">
 </head>
+
+<style>
+    .slick-prev,
+    .slick-next {
+        background: #192f59;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        z-index: 9999;
+    }
+
+    #div_1dd7_107 {
+        padding: 0px 0px 60px 0;
+    }
+
+    .slick-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0px 100px;
+        padding: 0;
+    }
+
+    .slick-prev:hover {
+        background: #192f59 !important;
+    }
+
+    .slick-next:hover {
+        background: #192f59 !important;
+    }
+
+    @media(max-width:600px) {
+        .slick-list {
+            margin: 0px 0px !important;
+        }
+
+        .slick-prev {
+            left: 0px !important;
+        }
+
+        .slick-next {
+            right: 0px !important;
+        }
+
+        .gdlr-core-gallery-item .gdlr-core-gallery-list {
+            display: flex !important;
+            justify-content: center !important;
+        }
+    }
+</style>
 
 <body
     class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js tribe-no-js kingster-body kingster-body-front kingster-full  kingster-with-sticky-navigation  kingster-blockquote-style-1 gdlr-core-link-to-lightbox">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <div class="kingster-mobile-header-wrap">
         <div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation "
             id="kingster-mobile-header">
@@ -720,15 +776,18 @@
                                                     </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
-                                                        <a href="#">B.Tech - Information Technology</a></li>
+                                                        <a href="#">B.Tech - Information Technology</a>
+                                                    </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5820">
                                                         <a target="_blank" href="#">B.Tech - Computer Science and
-                                                            Business System (CSBS)</a></li>
+                                                            Business System (CSBS)</a>
+                                                    </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5821">
                                                         <a target="_blank" href="#">B.Tech - Electronics Engineering
-                                                            (VLSI Design and Technology)</a></li>
+                                                            (VLSI Design and Technology)</a>
+                                                    </li>
 
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
@@ -736,17 +795,21 @@
                                                     </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
-                                                        <a href="#">B.E - Computer Science Engineering</a></li>
+                                                        <a href="#">B.E - Computer Science Engineering</a>
+                                                    </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
-                                                        <a href="#">B.E - CSE (Cyber Security)</a></li>
+                                                        <a href="#">B.E - CSE (Cyber Security)</a>
+                                                    </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
                                                         <a href="#">B.E - CSE (Artificial Intelligence & Machine
-                                                            Learning)</a></li>
+                                                            Learning)</a>
+                                                    </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
-                                                        <a href="#">B.E - Computer Science and Design</a></li>
+                                                        <a href="#">B.E - Computer Science and Design</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -760,10 +823,12 @@
                                                     class="gdlr-core-custom-menu-widget gdlr-core-menu-style-list">
                                                     <li
                                                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-5818">
-                                                        <a href="#">M.E - Computer Science & Engineering</a></li>
+                                                        <a href="#">M.E - Computer Science & Engineering</a>
+                                                    </li>
                                                     <li
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5824">
-                                                        <a href="#">M.E - Communication Systems</a></li>
+                                                        <a href="#">M.E - Communication Systems</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -773,6 +838,90 @@
 
                             </div>
                         </div>
+
+
+
+                        <div class="gdlr-core-pbf-wrapper " id="div_1dd7_107">
+                            <div class="gdlr-core-pbf-background-wrap" id="div_1dd7_108"></div>
+                            <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
+                                <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom"
+                                    id="div_1dd7_109">
+                                    <div class="gdlr-core-pbf-element">
+                                        <div class="gdlr-core-gallery-item gdlr-core-item-pdb clearfix gdlr-core-gallery-item-style-grid"
+                                            id="div_1dd7_110">
+                                            <div class="gdlr-core-gallery-item-holder gdlr-core-js-2 clearfix"
+                                                data-layout="fitrows">
+                                                <div class="gdlr-core-gallery-slider">
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/tcs.png" alt="" title="banner-1" /></div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/boston.png" alt="" title="banner-2" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/next-gen-3d-tech.png" alt=""
+                                                            title="banner-3" /></div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/mphasis.png" alt="" title="banner-4" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/IEQS.png" alt="" title="banner-5" /></div>
+                                                    <!-- Add more items as needed -->
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/hcl.png" alt="" title="banner-5" /></div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/Infosys.png" alt="" title="banner-5" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/murugappa.png" alt="" title="banner-5" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/Reliance.png" alt="" title="banner-5" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/sutherland.png" alt="" title="banner-5" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/target.png" alt="" title="banner-5" />
+                                                    </div>
+                                                    <div class="gdlr-core-gallery-list gdlr-core-media-image"><img
+                                                            src="images/lcons/tech-mahendra.png" alt=""
+                                                            title="banner-5" /></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $('.gdlr-core-gallery-slider').slick({
+                                    slidesToShow: 4,
+                                    slidesToScroll: 1,
+                                    autoplay: true,
+                                    autoplaySpeed: 2000,
+                                    dots: false,
+                                    arrows: true,
+                                    responsive: [
+                                        {
+                                            breakpoint: 768,
+                                            settings: {
+                                                slidesToShow: 1,
+                                                slidesToScroll: 1
+                                            }
+                                        },
+                                        {
+                                            breakpoint: 1024,
+                                            settings: {
+                                                slidesToShow: 2,
+                                                slidesToScroll: 1
+                                            }
+                                        }
+                                    ]
+                                });
+                            });
+                        </script>
 
 
                         <div class="gdlr-core-pbf-wrapper " style="padding: 20px 0px 30px 0px;">
@@ -1022,7 +1171,8 @@
                                                             style="font-size: 14px ;font-weight: 700 ;letter-spacing: 0px ;padding: 13px 26px 16px 30px;text-transform: none ;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;background: #fff ; color: #163269;"><span
                                                                 class="gdlr-core-content">Contact Us</span><i
                                                                 class="gdlr-core-pos-right fa fa-external-link"
-                                                                style="font-size: 14px ;"></i></a></div>
+                                                                style="font-size: 14px ;"></i></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

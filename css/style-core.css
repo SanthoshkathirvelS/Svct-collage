@@ -830,7 +830,7 @@ pre {
 
 .slick-slide img {
   display: block;
-  height: 170px;
+  height: 130px;
   width: 240px;
   object-fit: contain;
 }
