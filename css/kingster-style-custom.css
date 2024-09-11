@@ -961,7 +961,7 @@ body.kingster-boxed .kingster-fixed-footer .kingster-copyright-wrapper {
 }
 
 .kingster-logo-inner {
-  max-width: 330px;
+  max-width: 280px;
 }
 
 @media only screen and (max-width: 1260px) {
@@ -5117,7 +5117,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_0 {
-  background-image: url(../upload/about-title-bg.jpg);
+  background-image: url(/images/home/why-choose.avif);
 }
 
 #div_983a_1 {
@@ -5289,9 +5289,9 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_28 {
-  background-image: url(../upload/nathan-dumlao-572047-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(/images/home/Placement-Logo-collage.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #div_983a_29 {
@@ -5303,9 +5303,9 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_31 {
-  background-image: url(../upload/shutterstock_400221589.jpg);
+  background-image: url(/images/home/corporate-social-responsibility-meeting-concept_53876-124791.avif);
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #div_983a_32 {
@@ -5375,9 +5375,9 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_983a_44 {
-  background-image: url(../upload/shutterstock_547272460.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(/images/home/eco-img.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #div_983a_45 {
